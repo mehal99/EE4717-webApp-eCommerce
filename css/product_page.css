@@ -1,0 +1,66 @@
+
+.product__briefinfo * {
+    margin-bottom:5px;
+}
+.product__image {
+    width: 18rem;
+    height: 18rem;
+}
+.product__image img {
+    width:100%;
+}
+.product-name{
+    font-size: 22px;
+}
+.content{
+    padding-top:20px;
+}
+.wishlist{
+
+    cursor: pointer;
+}
+.selected {
+    fill: #bd2130;
+    display: none;
+}
+.information .table{
+    width:50%;
+}
+
+.information__heading {
+    padding: 4px;
+    background-color: #c6d4a9;
+}
+.count {
+    width: 15%;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+}
+.count:focus{
+    border: 1px solid #bbbbbb;
+}
+.upcount , .downcount{
+    width: 12%;
+    font-weight: 300;
+    cursor: pointer;
+}
+.upcount button, .downcount button {
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 300;
+    border: none;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+.information > *{
+    margin-bottom:5px;
+}
+.information {
+    margin-top: 20px;
+}
+
+.top-content{
+    padding-bottom: 30px;
+}

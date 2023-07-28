@@ -1,0 +1,192 @@
+.checkout-page .checkout-content h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.checkout-page .order-summary-table{
+    width: 100%;
+    border-radius: 8px;
+    border-collapse: collapse;
+}
+
+.checkout-page .order-summary-table tr{
+    text-align: center;
+}
+
+.checkout-page .order-summary-table thead{
+    background-color: #F4F4F4;
+}
+.checkout-page .order-summary-table th{
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #8A8A8A;
+}
+
+.checkout-page .order-summary-table tr td{
+    padding:10px 20px;
+}
+
+
+.checkout-page .order-summary-table .product-col{
+  display: flex;
+  align-items: center;
+}
+.checkout-page .order-summary-table .product-col img{
+    width: 100px;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.checkout-page .order-summary-table .total-price{
+    text-align: right;
+    font-size: 24px;
+}
+.checkout-page .order-summary-table .total-price span{
+    font-weight: bold;
+}
+
+.checkout-page .order-summary-table tfoot tr{
+    border-top: 1px solid lightgrey;
+    height: 80px;
+    padding-top: 30px;
+}
+
+.checkout-page .customer-details-table, .checkout-page .customer-details-table tr{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.checkout-page .customer-details-table tr td{
+    padding:10px 20px;
+}
+
+.checkout-page .customer-details-table input{
+    width: 100%;
+    background-color: #f1f1f1ce;
+    border:0;
+    border-radius: 8px;
+    height: 36px;
+    padding-left: 12px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.checkout-page .customer-details-table input[type='radio']{
+    width: auto;
+    margin-right: 10px;
+}
+.checkout-page .customer-details-table .label{
+    color: #333333;
+}
+
+.checkout-page .customer-details-table button{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    color:white;
+    font-size: 16px;
+    background-color: #3DA300;
+}
+
+.checkout-page .customer-details-table .total-payment{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:20px;
+    padding-top: 20px;
+}
+.checkout-page .customer-details-table .total-payment >div{
+    font-size: 24px;
+
+}
+.checkout-page .customer-details-table .total-payment >div span{
+    font-weight: bold;
+}
+.checkout-page .customer-details-table tr:last-child{
+    border-top: 1px solid lightgrey;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+    
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal-header-success, .modal-header-unsuccess {
+    padding: 2px 16px;
+    
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .modal-header-success{
+    background-color: #5cb85c;
+  }
+  .modal-header-unsuccess{
+    background-color: #d86060;
+  }
+  /* Modal Body */
+  .modal-body {
+      padding: 16px 16px;
+      text-align: center;
+  }
+  
+  /* Modal Footer */
+  .modal-footer-success, .modal-footer-unsuccess {
+    padding: 16px 16px;
+    text-align: center;
+    color: white;
+  }
+  .modal-footer-success{
+    background-color: #5cb85c;
+  }
+  .modal-footer-unsuccess {
+    background-color: #d86060;
+  }
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 42%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.7s;
+    margin-top: 20%;
+  }
+  
+  /* Add Animation */
+  @keyframes animateto {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
+  @keyframes animatetop {
+    from {opacity: 0}
+    to {opacity: 1}
+  }

@@ -1,0 +1,121 @@
+.product{
+    margin-top: 30px;
+}
+
+.product__briefinfo * {
+    margin-bottom:5px;
+}
+.product__briefinfo {
+    width: 50%;
+}
+.product__image {
+    width: 50%;
+    max-width: 400px;
+    max-height: 330px;
+
+}
+.product__image img {
+    max-width:80%;
+    max-height: 300px;
+    margin:auto;
+    display: block;
+}
+.product-name{
+    font-size: 24px;
+}
+.product-rating{
+    color: orange;
+    font-weight: bold;
+}
+.product-price{
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.product-quantity{
+    margin-top: 36px;
+}
+.product-quantity input{
+    width: 50px;
+    height: 40px;
+    padding:6px;
+    box-sizing: border-box;
+    margin:0;
+}
+.product-quantity .flex-row{
+    gap:12px;
+    align-items: center;
+}
+.product-quantity .flex-row >div{
+    display: flex;
+    gap:10px;
+}
+.product-quantity .flex-row >div >div{
+    width: 50px;
+    margin:0;
+}
+.product-quantity button{margin:0;}
+
+.buttons{
+    margin-top: 10px;
+}
+
+
+.content{
+    padding-top:40px;
+}
+.product__briefinfo .wishlist{
+    cursor: pointer;
+    gap:12px;
+    align-items: center;
+    margin-top: 10px;
+}
+.selected {
+    fill: #bd2130;
+    display: none;
+}
+.information .table{
+    width:50%;
+    margin-top: 12px;
+}
+.information .table td{
+    padding:8px;
+}
+
+.information__heading {
+    padding: 12px 24px;
+    font-weight: bold;
+    background-color: #c6d4a9;
+    margin-top: 20px;
+}
+.count {
+    width: 15%;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+}
+.count:focus{
+    border: 1px solid #bbbbbb;
+}
+.upcount , .downcount{
+    width: 12%;
+    font-weight: 300;
+    cursor: pointer;
+}
+.upcount button, .downcount button {
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 300;
+    border: none;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+.information > *{
+    margin-bottom:5px;
+}
+.information__description{
+    padding:20px 12px; 
+    line-height: 22px;
+}
